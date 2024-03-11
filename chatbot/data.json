@@ -1,0 +1,202 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Asalam o Alaikum", "Hello", "Hi", "Salam", "Hey", "How are you?"],
+            "responses": ["Waalaikum Assalam! I'm here to help.", "Hello! How can I assist you today?", "Hi there! How can I support you?"],
+            "context": []
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Allah Hafiz", "Goodbye", "Bye", "See you later", "Take care"],
+            "responses": ["Allah Hafiz! Take care of yourself.", "Goodbye! If you need anything, I'm here.", "Bye! Remember, you're not alone."],
+            "context": []
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Shukriya", "Thank you", "Thanks a lot", "Thanks for your help", "Thank you very much"],
+            "responses": ["Khushamadeed! Happy to assist.", "You're welcome!", "Anytime!"],
+            "context": []
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, I didn't catch that. Could you please repeat?", "I'm not sure I understand. Can you provide more information?", "Apologies, I didn't get that. Can you rephrase?"],
+            "context": []
+        },
+        {
+            "tag": "options",
+            "patterns": ["How can you help me?", "What services do you offer?", "What support is available?", "How can I get help?"],
+            "responses": ["I can provide information and support on various mental health topics including anxiety, depression, stress, and more. Feel free to ask anything you'd like to know!", "I'm here to offer guidance and support for your mental well-being. Just let me know how I can assist you."],
+            "context": []
+        },
+        {
+            "tag": "stress_management",
+            "patterns": [
+                "How can I manage stress?",
+                "Coping with stressful situations",
+                "How to deal with stress?",
+                "Stress relief techniques",
+                "Managing stress in daily life"
+            ],
+            "responses": [
+                "Stress management is crucial for your well-being. You can try relaxation techniques like deep breathing, meditation, or yoga. Engaging in physical activity, maintaining a healthy diet, and seeking social support can also help. Remember to take breaks and prioritize self-care."
+            ],
+            "context": []
+        },
+        {
+            "tag": "depression_support",
+            "patterns": [
+                "I'm feeling depressed",
+                "Dealing with depression",
+                "Help for depression",
+                "How to cope with depression?",
+                "Symptoms of depression"
+            ],
+            "responses": [
+                "Depression can be challenging, but you're not alone. It's essential to reach out for support. Talk to a trusted friend, family member, or a mental health professional. Practice self-care, engage in activities you enjoy, and consider therapy or medication if needed."
+            ],
+            "context": []
+        },
+        {
+            "tag": "anxiety_management",
+            "patterns": [
+                "How to manage anxiety?",
+                "Dealing with anxious thoughts",
+                "Coping with anxiety attacks",
+                "Techniques to reduce anxiety",
+                "Anxiety relief methods"
+            ],
+            "responses": [
+                "Managing anxiety involves various strategies such as deep breathing exercises, mindfulness meditation, progressive muscle relaxation, and cognitive-behavioral techniques. It's essential to identify triggers, practice self-care, and seek professional support if needed."
+            ],
+            "context": []
+        },
+        {
+            "tag": "loneliness_support",
+            "patterns": [
+                "Feeling lonely",
+                "Dealing with loneliness",
+                "Overcoming isolation",
+                "Connecting with others",
+                "Loneliness relief methods"
+            ],
+            "responses": [
+                "Loneliness can be tough, but there are ways to feel more connected. Reach out to friends or family members, join social groups or clubs, volunteer, or engage in activities that interest you. Consider seeking professional support if loneliness persists."
+            ],
+            "context": []
+        },
+        {
+            "tag": "suicidal_thoughts",
+            "patterns": [
+                "I feel like giving up",
+                "I want to end it all",
+                "Life doesn't seem worth it anymore",
+                "What to do when feeling suicidal?",
+                "Help with suicidal thoughts"
+            ],
+            "responses": [
+                "It's essential to reach out for help when experiencing suicidal thoughts. You're not alone, and there are people who care about you. Please consider contacting a trusted friend, family member, or a mental health professional for support. You can also reach out to helplines or hotlines for immediate assistance."
+            ],
+            "context": []
+        },
+        {
+            "tag": "family_support",
+            "patterns": [
+                "Family problems",
+                "Dealing with family issues",
+                "Family conflicts",
+                "Support for family-related stress",
+                "How to improve family relationships"
+            ],
+            "responses": [
+                "Family issues can be challenging, but there are ways to address them. Effective communication, setting boundaries, and seeking family therapy or counseling can help improve relationships. Remember to prioritize self-care and seek support when needed."
+            ],
+            "context": []
+        },
+        {
+            "tag": "workplace_stress",
+            "patterns": [
+                "Dealing with workplace stress",
+                "Work-related stress",
+                "How to manage stress at work?",
+                "Coping with job pressure",
+                "Balancing work and life"
+            ],
+            "responses": [
+                "Workplace stress is common, but it's essential to find ways to manage it effectively. Consider setting realistic goals, communicating boundaries with colleagues, taking regular breaks, and practicing relaxation techniques. Don't hesitate to seek support from HR or a supervisor if needed."
+            ],
+            "context": []
+        },
+        {
+            "tag": "relationship_issues",
+            "patterns": [
+                "Relationship problems",
+                "Dealing with relationship issues",
+                "How to improve relationships?",
+                "Coping with breakups",
+                "Communication in relationships"
+            ],
+            "responses": [
+                "Relationships can be challenging, but communication and understanding are key. Try to listen actively, express your feelings openly, and work together to find solutions. If you're struggling, consider couples therapy or counseling to improve communication and strengthen your bond."
+            ],
+            "context": []
+        },
+        {
+            "tag": "cultural_identity",
+            "patterns": [
+                "Identity crisis",
+                "Dealing with cultural identity",
+                "Struggling with cultural expectations",
+                "Balancing cultural values",
+                "Cultural conflicts"
+            ],
+            "responses": [
+                "Navigating cultural identity can be complex, but it's essential to honor and understand your heritage while also embracing personal growth. Connect with others who share similar experiences, seek guidance from elders or mentors, and explore activities that celebrate your cultural identity."
+            ],
+            "context": []
+        },
+        {
+            "tag": "financial_stress",
+            "patterns": [
+                "Financial problems",
+                "Dealing with financial stress",
+                "Managing money worries",
+                "How to cope with debt?",
+                "Budgeting tips"
+            ],
+            "responses": [
+                "Financial stress can impact mental health, but there are steps you can take to manage it. Create a budget, prioritize expenses, explore resources for debt relief, and consider seeking financial counseling or assistance. Remember, seeking support is a sign of strength."
+            ],
+            "context": []
+        },
+        {
+            "tag": "substance_abuse",
+            "patterns": [
+                "Dealing with addiction",
+                "Substance abuse support",
+                "Help for drug/alcohol addiction",
+                "Overcoming addiction",
+                "Recovery from substance abuse"
+            ],
+            "responses": [
+                "Overcoming addiction is challenging, but recovery is possible with support. Consider reaching out to a support group, seeking therapy or counseling, and exploring treatment options. Remember, you're not alone, and there are people who want to help you on your journey to recovery."
+            ],
+            "context": []
+        },
+        {
+            "tag": "trauma_recovery",
+            "patterns": [
+                "Dealing with trauma",
+                "Trauma support",
+                "Help for traumatic experiences",
+                "Coping with PTSD",
+                "Recovery from trauma"
+            ],
+            "responses": [
+                "Recovery from trauma takes time and support. It's essential to prioritize self-care, seek therapy or counseling, and connect with others who understand your experience. Remember, healing is a journey, and it's okay to seek help along the way."
+            ],
+            "context": []
+        }
+    ]
+}
